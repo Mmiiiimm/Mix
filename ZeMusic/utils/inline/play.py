@@ -54,7 +54,6 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "————————◉—"
     else:
         bar = "—————————◉"
-    buttons = [
                 [
             InlineKeyboardButton(text="𖣂 𝒓𝒆𝒔𝒖𝒎𝒆 𖣂", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="𖣂 𝒑𝒂𝒖𝒔𝒆 𖣂", callback_data=f"ADMIN Pause|{chat_id}"),
