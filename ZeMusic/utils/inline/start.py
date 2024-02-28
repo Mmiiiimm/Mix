@@ -27,10 +27,10 @@ def private_panel(_):
         [InlineKeyboardButton(text="- Help .", callback_data="settings_back_helper")],
         [
             InlineKeyboardButton(text="- BoT OWNER .", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="- SUPPORT .", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="- DeV Source .", url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text=". cHanneL Bot .", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=". Support .", url=config.SUPPORT_CHANNEL),
         ],
     ]
     return buttons
